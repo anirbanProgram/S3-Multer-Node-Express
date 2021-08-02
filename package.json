@@ -1,0 +1,28 @@
+{
+  "name": "s3-multer-node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbanProgram/S3-Multer-Node-Express.git"
+  },
+  "author": "Anirban Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirbanProgram/S3-Multer-Node-Express/issues"
+  },
+  "homepage": "https://github.com/anirbanProgram/S3-Multer-Node-Express#readme",
+  "dependencies": {
+    "aws-sdk": "^2.958.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
